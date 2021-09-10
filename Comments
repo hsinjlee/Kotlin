@@ -1,0 +1,23 @@
+fun main() {
+  // This is a comment
+  println("Hello World") 
+}
+==
+Hello World
+==
+
+fun main() {
+  println("Hello World") // This is a comment
+}
+==
+Hello World
+==
+
+fun main() {
+  /* The code below will print the words Hello World
+  to the screen, and it is amazing */
+  println("Hello World") 
+}
+==
+Hello World
+==
