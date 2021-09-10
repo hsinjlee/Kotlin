@@ -1,0 +1,100 @@
+fun main() {
+  var name = "John"
+  val birthyear = 1975
+  
+  println(name)
+  println(birthyear)
+}
+==
+John
+1975
+==
+
+fun main() {
+  var name = "John" // String
+  val birthyear = 1975 // Int
+  println(name)
+  println(birthyear)
+}
+==
+John
+1975
+==
+
+fun main() {
+  var name: String
+  name = "John"
+  println(name)
+}
+==
+John
+==
+
+fun main() {
+  var name
+  name = "John"
+  println(name)
+}
+==
+demo_variables4.kt:2:7: error: this variable must either have a type annotation or be initialized
+  var name
+      ^
+==
+
+fun main() {
+  val name = "John"
+  name = "Robert"
+  println(name)
+}
+==
+prog.kt:3:3: error: val cannot be reassigned
+  name = "Robert"
+  ^
+==
+
+fun main() {
+  var name = "John"
+  name = "Robert"
+  println(name)
+}
+==
+Robert
+==
+
+fun main() {
+  val pi = 3.14159265359
+  println(pi)
+}
+==
+3.14159265359
+==
+
+fun main() {
+  val name = "John"
+  println("Hello " + name)
+}
+==
+Hello John
+==
+
+fun main() {
+  val firstName = "John "
+  val lastName = "Doe"
+  val fullName = firstName + lastName
+  println(fullName)
+}
+==
+John Doe
+==
+
+fun main() {
+  val x = 5
+  val y = 6
+  println(x + y) // Print the value of x + y
+}
+==
+11
+==
+
+
+  
