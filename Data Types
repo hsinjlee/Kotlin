@@ -1,0 +1,147 @@
+fun main() {
+  val myNum = 5               // Int
+  val myDoubleNum = 5.99      // Double
+  val myLetter = 'D'          // Char
+  val myBoolean = true        // Boolean
+  val myText = "Hello"        // String
+  println(myNum)
+  println(myDoubleNum)
+  println(myLetter)
+  println(myBoolean)
+  println(myText)
+}
+==
+5
+5.99
+D
+true
+Hello
+==
+
+fun main() {
+  val myNum: Int = 5                // Int
+  val myDoubleNum: Double = 5.99    // Double
+  val myLetter: Char = 'D'          // Char
+  val myBoolean: Boolean = true     // Boolean
+  val myText: String = "Hello"      // String
+  println(myNum)
+  println(myDoubleNum)
+  println(myLetter)
+  println(myBoolean)
+  println(myText)
+}
+==
+5
+5.99
+D
+true
+Hello
+==
+
+fun main() {
+  val myNum: Byte = 100
+  println(myNum)
+}
+==
+100
+==
+
+fun main() {
+  val myNum: Short = 5000
+  println(myNum)
+}
+==
+5000
+==
+
+fun main() {
+  val myNum: Int = 100000
+  println(myNum)
+}
+==
+100000
+==
+
+fun main() {
+  val myNum: Long = 15000000000L
+  println(myNum)
+}
+==
+15000000000
+==
+
+fun main() {
+  val myNum: Float = 5.75F
+  println(myNum)
+}
+==
+5.75
+==
+
+fun main() {
+  val myNum: Double = 19.99
+  println(myNum)
+}
+==
+19.99
+==
+
+fun main() {
+  val myNum1: Float = 35E3F
+  val myNum2: Double = 12E4
+  println(myNum1)
+  println(myNum2)
+}
+==
+35000.0
+120000.0
+==
+
+fun main() {
+  val isKotlinFun: Boolean = true
+  val isFishTasty: Boolean = false
+  println(isKotlinFun)   // Outputs true
+  println(isFishTasty)   // Outputs false
+}
+==
+true
+false
+==
+
+fun main() {
+  val myGrade: Char = 'B' 
+  println(myGrade)
+}
+==
+B
+==
+
+fun main() {
+  val myText: String = "Hello World"
+  System.out.println(myText)
+}
+==
+Hello World
+==
+
+fun main() {  
+  val x: Int = 5 
+  val y: Long = x
+  println(y)  
+}
+==
+demo_type_conv.kt:3:17: error: type mismatch: inferred type is Int but Long was expected
+  val y: Long = x
+                ^
+==
+
+
+fun main() {  
+  val x: Int = 5 
+  val y: Long = x.toLong()
+  println(y)  
+}
+==
+5
+==
+
