@@ -1,0 +1,119 @@
+fun main() {
+  var greeting = "Hello"
+  println(greeting) 
+}
+==
+Hello
+==
+
+fun main() {
+  var greeting: String = "Hello"
+  println(greeting) 
+}
+==
+Hello
+==
+
+fun main() {
+  var name: String
+  name = "John"
+  println(name)
+}
+==
+John
+==
+
+fun main() {
+  var name
+  name = "John"
+  println(name)
+}
+==
+demo_variables4.kt:2:7: error: this variable must either have a type annotation or be initialized
+  var name
+      ^
+==
+
+fun main() {
+  var txt = "Hello World"
+  println(txt[0]) // first element/character
+  println(txt[2]) // third element/character
+}
+==
+H
+l
+==
+
+fun main() {
+  var txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+  println("The length of the txt string is: " + txt.length);
+}
+==
+The length of the txt string is: 26
+==
+
+fun main() {
+  var txt = "Hello World"
+  println(txt.toUpperCase())
+  println(txt.toLowerCase())
+}
+==
+HELLO WORLD
+hello world
+==
+
+fun main() {
+  var txt1 = "Hello World"
+  var txt2 = "Hello World"
+  println(txt1.compareTo(txt2))  // Outputs 0 (they are equal)
+}
+==
+0
+==
+
+fun main() {
+  var txt = "Please locate where 'locate' occurs!"
+  println(txt.indexOf("locate"))
+}
+==
+7
+==
+
+fun main() {
+  var txt1 = "It's alright"
+  var txt2 = "That's great"
+  println(txt1) 
+  println(txt2) 
+}
+==
+It's alright
+That's great
+==
+
+fun main() {
+  var firstName = "John"
+  var lastName = "Doe"
+  println(firstName + " " + lastName)
+}
+==
+John Doe
+==
+
+fun main() {
+  var firstName = "John "
+  var lastName = "Doe"
+  println(firstName.plus(lastName))
+}
+==
+John Doe
+==
+
+fun main() {
+  var firstName = "John"
+  var lastName = "Doe"
+  println("My name is $firstName $lastName")
+}
+==
+My name is John Doe
+==
+
