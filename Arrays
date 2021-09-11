@@ -1,0 +1,50 @@
+fun main() {
+  val cars = arrayOf("Volvo", "BMW", "Ford", "Mazda")
+  println(cars[0])
+}
+==
+Volvo
+==
+
+fun main() {
+  val cars = arrayOf("Volvo", "BMW", "Ford", "Mazda")
+  cars[0] = "Opel"
+  println(cars[0])
+}
+==
+Opel
+==
+
+fun main() {
+  val cars = arrayOf("Volvo", "BMW", "Ford", "Mazda")
+  println(cars.size)
+}
+==
+4
+==
+
+fun main() {
+  val cars = arrayOf("Volvo", "BMW", "Ford", "Mazda")
+  if ("Volvo" in cars) {
+    println("It exists!")
+  } else {
+    println("It does not exist.")
+  }
+}
+==
+It exists!
+==
+
+fun main() {
+  val cars = arrayOf("Volvo", "BMW", "Ford", "Mazda")
+  for (x in cars) {
+    println(x)
+  }
+}
+==
+Volvo
+BMW
+Ford
+Mazda
+==
+
